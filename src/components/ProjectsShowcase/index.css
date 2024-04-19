@@ -1,0 +1,79 @@
+.main-container {
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #f1f5f9;
+  height: 100px;
+}
+
+.website-logo {
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.projects-container {
+  padding: 40px 80px;
+}
+
+.select-category {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.project-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.failure-image {
+  width: 400px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+
+.failure-para {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.retry-btn {
+  color: #ffffff;
+  background-color: #328af2;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
